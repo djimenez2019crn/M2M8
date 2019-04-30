@@ -1,0 +1,161 @@
+body{
+  margin-top: 50px;
+  padding:0;
+
+}
+
+div{
+  overflow: visible;
+  position: relative;
+
+}
+
+.esquerra{
+  float: left;
+  clear: left;
+}
+
+.dreta{
+  float: right;
+  clear: right;
+}
+
+.cap{
+  width: 500px;
+  height: 700px;
+  background-color: #ffe5cc;
+  margin: 0 auto;
+  border-radius: 100px 100px 200px 200px;
+}
+
+.cabell{
+  height: 200px;
+  background-color: #cc7a00;
+  border-radius: 85px 85px 0 0;
+  background: linear-gradient(to top, #cc7a00, #804d00);
+}
+
+.ulls{
+  height: 180px;
+  background-color: ;
+  clear: both;
+}
+
+.celles{
+  height: 20px;
+}
+
+.cella{
+  width: 120px;
+  height: 20px;
+  background-color: #cc7a00;
+  margin: 0 50px;
+  top: 10px;
+  border-radius: 100px;
+}
+
+.parpelles{
+  height: 60px;
+  margin: 0;
+}
+
+.parpella{
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  margin: 0 75px;
+  border-radius: 100px;
+  border-top: solid #ffbf80 20px;
+  border-bottom: solid #ffbf80 20px;
+  top: 20px;
+}
+
+.irisos{
+  height: 50px;
+  margin: 0 75px;
+}
+
+.iris{
+height: 50px;
+width: 50px;
+background-color: #666633;
+background: linear-gradient(#666633, olivedrab);
+border-radius: 100px;
+margin: 0 25px;
+top: -55px;
+}
+
+.pupilas{
+  height: 50px;
+}
+
+.pupila{
+height: 15px;
+width: 15px;
+background-color: black;
+border-radius: 100px;
+margin: 0 117px;
+top: -87px;
+}
+
+.orelles{
+  height: 80px;
+  margin: 0 80px;
+}
+
+.orella{
+  width: 70px;
+  height: 120px;
+  background-color: #ffe5cc;
+  margin: -115px;
+  border-radius: 60px;
+  z-index: 9;
+}
+
+.nasDos{
+  height: 50px;
+  width: 85px;
+  background-color: #ffe5cc;
+  margin: 0 205px;
+  top: -50px;
+  border-radius: 50px 50px 50px 50px;
+  border-top: solid #ffbf80 5px;
+}
+
+.nas{
+width: 8px;
+height: 8px;
+background-color: black;
+border-radius: 50px;
+top: 15px;
+margin: 0 10px;
+}
+
+.bocaDos{
+  height: 7px;
+  width: 150px;
+  background-color: black;
+  margin: 0 173px;
+  top: 55px;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+}
+.coll{
+  width: 200px;
+  height: 130px;
+  background-color: #ffe5cc;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+@keyframes move{
+  0%{
+    right:50px;
+  }
+
+  100%{
+    right:-50px;
+  }
+}
