@@ -1,0 +1,233 @@
+body{
+  color:#666;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "helvetica neue", arial ,sans-serif;
+}
+ul{
+  width: 400;
+}
+li{
+  list-style-type: none;
+}
+div{
+  padding-left: 50px;
+  overflow: hidden;
+}
+h1,h2{
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1{
+  font-size: 2.5em;
+  line-height: 1em;
+}
+h2{
+  font-size: 2em;
+  line-height: 1em;
+}
+p{
+  width: 400px;
+}
+#primer{
+  background-color: #FFF;
+}
+#primer img{
+  padding-top: 15px;
+}
+#menu{
+  margin: 0;
+  padding: 0;
+  width: 93%;
+  text-align: right;
+  display: inline-block;
+}
+#menu li{
+  display:inline;
+  margin: 0 5px;
+}
+#segon{
+  background-color: #333;
+}
+#segon h1{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#segon div{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+}
+#segon ul{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10%;
+
+}
+#tercer{
+  background-image: url("img/01_coneix.png");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: 500px;
+  background-color: #6C3;
+}
+#quart{
+  background-image: url("img/02_lloc.png");
+  height: 641px;
+  background-repeat: no-repeat;
+  background-position: 500px;
+  background-color: #FFF;
+}
+#cinque{
+  background-image: url("img/03_util.png");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: 500px;
+  background-color: #333;
+}
+#sise{
+  background-image: url("img/01_coneix.png");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: 500px;
+  background-color: #EEECEE;
+}
+#sete{
+  background-image: url("img/05_rapid.png");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: 500px;
+  background-color: #6C3;
+}
+#vuite{
+  background-image: url("img/06_facil.png");
+  height: 643px;
+  background-repeat: no-repeat;
+  background-position: 500px;
+  background-color: #FFF;
+}
+#nove{
+  background-color: #333;
+  text-align: center;
+  padding: 0px;
+}
+#nove img{
+  margin: 50px 25px;
+}
+.txtverd{
+  color:#6C3;
+}
+.txtclar{
+  color: #CCC;
+}
+.inici{
+  text-align: right;
+  width: 100%;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  padding-top: 36px;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #CCC;
+}
+a:visited{
+  color: #CCC;
+}
+a:hover{
+  color: #666;
+}
+a:active{
+  color: #6C3;
+}
+.fonsgris{
+  background-color: #EEECEE;
+  margin: 0;
+  padding: 0;
+}
+.fonsclar{
+  background-color: #DDD;
+  margin: 0;
+  padding: 0;
+}
+.centrat{
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+.centrat img{
+  width:100%;
+  height: auto;
+}
+.centrat p{
+  width: 100%;
+}
+.centrat h1{
+  width: 100%;
+  margin-bottom: 1.2em;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+.centrat h2{
+  width: 100%;
+  margin-top: 1.2em;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  font-weight: 100;
+}
+.centrat h3{
+  width: 100%;
+}
+.caixa{
+  width: 31%;
+  height: 200px;
+  margin: 1%;
+  padding: 0;
+  float: left;
+}
+.fa{
+  color: #6c3;
+  font-size: 3em;
+}
+#esq{
+  width: 25%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+#enlace{
+  width: 100%;
+  background-color: #6C3;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+.kern{
+  letter-spacing: -0.1em;
+}
+#tfn{
+  background-image: url(img/frame-iphone5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 571px;
+  background-color: #DDD;
+  margin: 0;
+  padding: 0;
+}
+#registre{
+  background-color: #D9A;
+  width: 240px;
+  margin: 0 auto;
+  padding: 0;
+}
