@@ -1,0 +1,40 @@
+body{
+  margin-left: 43.5%;
+  text-align: center;
+}
+.primari{
+  width: 200px;
+  padding: 0;
+}
+.primari li{
+  background-color: #e6ccff;
+  display: inline-block;
+  position: relative;
+}
+
+.primari li:hover > .secundari{
+  display: block;
+}
+
+.secundari{
+  background-color: #e6ccff;
+  position: absolute;
+  left: 0px;
+  top: -2.05 em;
+  display: none;
+
+}
+
+.secundari li{
+  margin: 1px;
+}
+
+h3{
+  background-color: #cc99ff;
+  margin: 0;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+li{
+  list-style-type: none;
+}
